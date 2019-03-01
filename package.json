@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --open --port 8888",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "less": "^2.7.2",
+    "less-loader": "^4.1.0",
     "vue": "^2.6.6",
     "vuex": "^3.0.1"
   },
@@ -18,7 +20,9 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.5.21"
+    "vue-template-compiler": "^2.5.21",
+    "less": "^2.7.2",
+    "less-loader": "^4.1.0"
   },
   "eslintConfig": {
     "root": true,

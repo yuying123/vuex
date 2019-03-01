@@ -1,17 +1,28 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!--<mapState/>-->
+    <!--<getter/>-->
+    <!--<mutation/>-->
+    <!-- <action/> -->
+    <helloWord></helloWord>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import mapState from './components/mapState.vue'
+// import getter from './components/getter.vue'
+// import mutation from './components/mutation.vue'
+// import action from './components/action.vue'
+import helloWord from './slot/HelloWorld.vue'
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    // mapState,
+    // getter,
+    // mutation,
+    // action
+    helloWord
   }
 }
 </script>
