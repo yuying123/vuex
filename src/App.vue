@@ -5,7 +5,11 @@
     <!--<getter/>-->
     <!--<mutation/>-->
     <!-- <action/> -->
-    <helloWord></helloWord>
+
+    <!-- <helloWord></helloWord> -->
+    <!-- <filterCom></filterCom> -->
+
+    <keepAliveCom></keepAliveCom>
   </div>
 </template>
 
@@ -14,7 +18,11 @@
 // import getter from './components/getter.vue'
 // import mutation from './components/mutation.vue'
 // import action from './components/action.vue'
-import helloWord from './slot/HelloWorld.vue'
+
+// import helloWord from './slot/HelloWorld.vue'
+// import filterCom from './filter/filter.vue'
+
+import keepAliveCom from './keep-alive/keepAlive.vue'
 export default {
   name: 'app',
   components: {
@@ -22,7 +30,10 @@ export default {
     // getter,
     // mutation,
     // action
-    helloWord
+
+    // helloWord,
+    // filterCom,
+    keepAliveCom
   }
 }
 </script>
@@ -37,3 +48,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+
